@@ -1,0 +1,50 @@
+/**
+ * This file was generated automatically by Supernova.io and should not be changed manually.
+ * To modify the format or content of this file, please contact your design system team. 
+ */
+
+:root {
+  --border-width-border-width-width-null: 0px;
+  --border-width-border-width-width-light: 0.4px;
+  --border-width-border-width-width-regular: 0.8px;
+  --border-width-border-width-width-medium: 1.2px;
+  --border-width-border-width-width-semibold: 1.6px;
+  --border-width-border-width-width-bold: 2px;
+  --border-width-border-width-width-extrabold: 3px;
+  --border-width-border-width-width-extra-extrabold: 4px;
+  --border-width-border-width-radio-out-border: 1.6px;
+  --border-width-border-width-radio-in-border: 0px;
+  --border-width-core-sizing-width-null: 0px;
+  --border-width-core-sizing-width-light: 0.4px;
+  --border-width-core-sizing-width-regular: 0.8px;
+  --border-width-core-sizing-width-medium: 1.2px;
+  --border-width-core-sizing-width-semibold: 1.6px;
+  --border-width-core-sizing-width-bold: 2px;
+  --border-width-core-sizing-width-extrabold: 3px;
+  --border-width-core-sizing-width-extra-extrabold: 4px;
+  --border-width-3-components-menu-item-border-thickness: var(--border-width-core-sizing-width-null);
+  --border-width-3-components-menu-item-inactive-focus-border-thickness: var(--border-width-core-sizing-width-medium);
+  --border-width-3-components-input-field-active-border-bottom-thickness: var(--border-width-core-sizing-width-medium);
+  /* Only in focus state for top, right and left borders. Bottom border maintains thickness. */
+  --border-width-3-components-input-field-active-focus-border-thickness: var(--border-width-core-sizing-width-regular);
+  --border-width-3-components-input-field-active-focus-border-bottom-thickness: var(--border-width-core-sizing-width-bold);
+  --border-width-3-components-menu-item-active-focus-border-thickness: var(--border-width-core-sizing-width-medium);
+  --border-width-3-components-input-field-inactive-border-bottom-thickness: var(--border-width-core-sizing-width-light);
+  --border-width-status-press-checkbox-default-border-thickness: var(--border-width-core-sizing-width-regular);
+  --border-width-status-press-checkbox-default-overlay-border-thickness: var(--border-width-core-sizing-width-null);
+  --border-width-status-press-checkbox-error-border-thickness: var(--border-width-core-sizing-width-regular);
+  --border-width-status-press-checkbox-error-overlay-border-thickness: var(--border-width-core-sizing-width-null);
+  --border-width-status-press-checkbox-disabled-border-thickness: var(--border-width-core-sizing-width-regular);
+  --border-width-status-press-checkbox-disabled-overlay-border-thickness: var(--border-width-core-sizing-width-null);
+  --border-width-status-press-radio-overlay-border: var(--border-width-core-sizing-width-null);
+  --border-width-status-press-switch-border-thickness: var(--border-width-core-sizing-width-null);
+  --border-width-status-press-dropdown-item-default-overlay-border-thickness: var(--border-width-core-sizing-width-null);
+  --border-width-status-press-tabs-active-overlay-border: var(--border-width-core-sizing-width-null);
+  --border-width-status-press-tabs-inactive-overlay-border: var(--border-width-core-sizing-width-null);
+  --border-width-toggle-radio-out-border: var(--border-width-core-sizing-width-semibold);
+  --border-width-toggle-radio-in-border: var(--border-width-core-sizing-width-regular);
+  --border-width-status-active-text-action-overlay-border: var(--border-width-core-sizing-width-null);
+  --border-width-status-active-inline-input-active-border-overlay: var(--border-width-core-sizing-width-null);
+  --border-width-status-active-inline-input-active-border-bottom: var(--border-width-core-sizing-width-semibold);
+  --border-width-variable-sizings-icon-size-stroke: var(--border-width-core-sizing-width-semibold);
+}

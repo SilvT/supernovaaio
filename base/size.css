@@ -1,0 +1,22 @@
+/**
+ * This file was generated automatically by Supernova.io and should not be changed manually.
+ * To modify the format or content of this file, please contact your design system team. 
+ */
+
+:root {
+  --size-core-sizing-content-small: 12px;
+  --size-core-sizing-content-medium: 20px;
+  --size-core-sizing-content-large: 36px;
+  /* Only for decorations and section titles */
+  --size-core-sizing-content-extralarge: 46px;
+  --size-variable-sizings-button-icon-size: 36px;
+  --size-variable-sizings-table-row-size: 100px;
+  --size-variable-heights-component-height: 28px;
+  --size-variable-heights-button-height: 32px;
+  --size-2-post-semantic-sizing-icons-medium: var(--size-core-sizing-content-medium);
+  --size-variable-sizings-icon-size: var(--size-2-post-semantic-sizing-icons-medium);
+  --size-2-post-semantic-sizing-icons-small: var(--size-core-sizing-content-small);
+  --size-2-post-semantic-sizing-icons-large: var(--size-core-sizing-content-large);
+  /* Only for decorations and section titles */
+  --size-2-post-semantic-sizing-icons-extralarge: var(--size-core-sizing-content-extralarge);
+}

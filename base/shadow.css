@@ -1,0 +1,11 @@
+/**
+ * This file was generated automatically by Supernova.io and should not be changed manually.
+ * To modify the format or content of this file, please contact your design system team. 
+ */
+
+:root {
+  --shadow-drop-shadow-subtle: 0px 0.5px 0.5px 0px var(--color-core-neutral-500-a20);
+  --shadow-drop-shadow-main: inset 0px 1px 1px 0px var(--color-core-neutral-950-a30);
+  --shadow-inner-shadow-subtle: inset 0.5px -0.5px 0.5px 0px var(--color-core-neutral-500-a20);
+  --shadow-inner-shadow-brand: inset -0.5px 0.5px 1px 0px var(--color-core-brand-300-a20);
+}
