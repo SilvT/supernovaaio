@@ -1,0 +1,87 @@
+/**
+ * This file was generated automatically by Supernova.io and should not be changed manually.
+ * To modify the format or content of this file, please contact your design system team. 
+ */
+
+:root {
+  --dimension-dimension-blur-1: 1px;
+  --dimension-dimension-blur-10: 10px;
+  --dimension-dimension-blur-0-5: 0.5px;
+  --dimension-dimension-size-content-small: 12px;
+  --dimension-dimension-size-content-medium: 20px;
+  --dimension-dimension-size-content-large: 36px;
+  --dimension-dimension-size-content-extralarge: 46px;
+  --dimension-dimension-checkbox-error-overlay-spacing: 4px;
+  --dimension-dimension-checkbox-disabled-overlay-spacing: 4px;
+  --dimension-dimension-checkbox-default-overlay-spacing: 4px;
+  --dimension-dimension-table-row-size: 200px;
+  --dimension-dimension-button-icon-size: 66px;
+  --dimension-dimension-padding-size: 16px;
+  --dimension-dimension-component-height: 32px;
+  --dimension-dimension-padding-height: 8px;
+  --dimension-dimension-button-height: 40px;
+  --dimension-border-width-null: 0;
+  --dimension-border-width-light: 0.4;
+  --dimension-border-width-regular: 0.8;
+  --dimension-border-width-medium: 1.2;
+  --dimension-border-width-semibold: 1.6;
+  --dimension-border-width-bold: 2;
+  --dimension-border-width-extrabold: 3;
+  --dimension-border-width-extra-extrabold: 4;
+  --dimension-core-blur-1: 1px;
+  --dimension-core-blur-0-5: 0.5px;
+  --dimension-core-blur-10: 10px;
+  --dimension-dimension-overlay-general-blur: var(--dimension-dimension-blur-10);
+  --dimension-dimension-menu-item-inactive-focus-border-thickness: var(--dimension-border-width-medium);
+  --dimension-dimension-menu-item-active-focus-border-thickness: var(--dimension-border-width-medium);
+  --dimension-dimension-menu-item-border-thickness: var(--dimension-border-width-null);
+  --dimension-dimension-input-field-inactive-border-bottom-thickness: var(--dimension-border-width-light);
+  --dimension-dimension-input-field-active-focus-border-bottom-thickness: var(--dimension-border-width-bold);
+  /* Only in focus state for top, right and left borders. Bottom border maintains thickness. */
+  --dimension-dimension-input-field-active-focus-border-thickness: var(--dimension-border-width-regular);
+  --dimension-dimension-input-field-active-border-bottom-thickness: var(--dimension-border-width-medium);
+  --dimension-dimension-pop-up-screen-overlay-blur: var(--dimension-dimension-overlay-general-blur);
+  --dimension-dimension-checkbox-error-border-thickness: var(--dimension-border-width-regular);
+  --dimension-dimension-checkbox-error-overlay-border-thickness: var(--dimension-border-width-medium);
+  --dimension-dimension-checkbox-disabled-border-thickness: var(--dimension-border-width-regular);
+  --dimension-dimension-checkbox-disabled-overlay-border-thickness: var(--dimension-border-width-medium);
+  --dimension-dimension-checkbox-default-border-thickness: var(--dimension-border-width-regular);
+  --dimension-dimension-checkbox-default-overlay-border-thickness: var(--dimension-border-width-medium);
+  --dimension-dimension-radio-overlay-border: var(--dimension-border-width-medium);
+  --dimension-dimension-switch-border-thickness: var(--dimension-border-width-regular);
+  --dimension-dimension-dropdown-item-default-overlay-border-thickness: var(--dimension-border-width-medium);
+  --dimension-dimension-tabs-active-overlay-border: var(--dimension-border-width-medium);
+  --dimension-dimension-tabs-inactive-overlay-border: var(--dimension-border-width-regular);
+  --dimension-dimension-dropdown-overlay-border: var(--dimension-border-width-null);
+  --dimension-dimension-text-action-overlay-border: var(--dimension-border-width-null);
+  --dimension-dimension-inline-input-active-border-overlay: var(--dimension-border-width-null);
+  --dimension-dimension-inline-input-active-border-bottom: var(--dimension-border-width-semibold);
+  --dimension-dimension-sizing-icons-small: var(--dimension-dimension-size-content-small);
+  --dimension-dimension-sizing-icons-medium: var(--dimension-dimension-size-content-medium);
+  /* Only for decorations and section titles */
+  --dimension-dimension-sizing-icons-extralarge: var(--dimension-dimension-size-content-large);
+  --dimension-dimension-sizing-icons-large: var(--dimension-dimension-size-content-extralarge);
+  --dimension-dimension-icon-size: var(--dimension-dimension-sizing-icons-extralarge);
+  --dimension-dimension-icon-size-stroke: var(--dimension-border-width-bold);
+  --dimension-semantic-overlay-neutral-blur: var(--dimension-core-blur-10);
+  --dimension-3-components-pop-up-screen-overlay-blur: var(--dimension-semantic-overlay-neutral-blur);
+  --dimension-status-press-checkbox-default-overlay-spacing: var(--space-core-spacing-4);
+  --dimension-status-press-checkbox-error-overlay-spacing: var(--space-core-spacing-4);
+  --dimension-status-press-checkbox-disabled-overlay-spacing: var(--space-core-spacing-4);
+  --dimension-status-active-dropdown-overlay-border: var(--border-width-core-sizing-width-null);
+  --dimension-semantic-effects-shadow-neutral-main-blur: var(--dimension-core-blur-1);
+  --dimension-semantic-effects-shadow-neutral-subtle-blur: var(--dimension-core-blur-0-5);
+  --dimension-semantic-effects-shadow-brand-blur: var(--dimension-core-blur-1);
+  --dimension-semantic-spacings-content-extremesmall: var(--space-core-spacing-2);
+  --dimension-semantic-spacings-content-extrasmall: var(--space-core-spacing-4);
+  --dimension-semantic-spacings-content-small: var(--space-core-spacing-8);
+  --dimension-semantic-spacings-content-main: var(--space-core-spacing-12);
+  --dimension-semantic-spacings-content-large: var(--space-core-spacing-16);
+  --dimension-semantic-spacings-content-extralarge: var(--space-core-spacing-24);
+  --dimension-semantic-spacings-content-extremelarge: var(--space-core-spacing-28);
+  --dimension-semantic-spacings-general-extrasmall: var(--space-core-spacing-16);
+  --dimension-semantic-spacings-general-small: var(--space-core-spacing-28);
+  --dimension-semantic-spacings-general-medium: var(--space-core-spacing-36);
+  --dimension-semantic-spacings-general-large: var(--space-core-spacing-48);
+  --dimension-semantic-spacings-general-extralarge: var(--space-core-spacing-56);
+}

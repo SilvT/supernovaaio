@@ -1,0 +1,65 @@
+/**
+ * This file was generated automatically by Supernova.io and should not be changed manually.
+ * To modify the format or content of this file, please contact your design system team. 
+ */
+
+:root {
+  --space-spacing-spacing-0: 0px;
+  --space-spacing-spacing-2: 2px;
+  --space-spacing-spacing-4: 4px;
+  --space-spacing-spacing-6: 6px;
+  --space-spacing-spacing-8: 8px;
+  --space-spacing-spacing-10: 10px;
+  --space-spacing-spacing-12: 12px;
+  --space-spacing-spacing-14: 14px;
+  --space-spacing-spacing-16: 16px;
+  --space-spacing-spacing-18: 18px;
+  --space-spacing-spacing-20: 20px;
+  --space-spacing-spacing-22: 22px;
+  --space-spacing-spacing-24: 24px;
+  --space-spacing-spacing-26: 26px;
+  --space-spacing-spacing-28: 28px;
+  --space-spacing-spacing-30: 30px;
+  --space-spacing-spacing-36: 36px;
+  --space-spacing-spacing-48: 48px;
+  --space-spacing-spacing-56: 56px;
+  --space-spacing-spacing-80: 80px;
+  --space-core-spacing-0: 0px;
+  --space-core-spacing-2: 2px;
+  --space-core-spacing-4: 4px;
+  --space-core-spacing-6: 6px;
+  --space-core-spacing-8: 8px;
+  --space-core-spacing-10: 10px;
+  --space-core-spacing-12: 12px;
+  --space-core-spacing-14: 14px;
+  --space-core-spacing-16: 16px;
+  --space-core-spacing-18: 18px;
+  --space-core-spacing-20: 20px;
+  --space-core-spacing-22: 22px;
+  --space-core-spacing-24: 24px;
+  --space-core-spacing-26: 26px;
+  --space-core-spacing-28: 28px;
+  --space-core-spacing-30: 30px;
+  --space-core-spacing-36: 36px;
+  --space-core-spacing-48: 48px;
+  --space-core-spacing-56: 56px;
+  --space-core-spacing-80: 80px;
+  --space-variable-heights-padding-height: 6px;
+  --space-spacing-content-extremesmall: var(--space-spacing-spacing-2);
+  --space-spacing-content-extrasmall: var(--space-spacing-spacing-4);
+  --space-spacing-content-small: var(--space-spacing-spacing-8);
+  --space-spacing-content-main: var(--space-spacing-spacing-12);
+  --space-spacing-content-large: var(--space-spacing-spacing-16);
+  --space-spacing-content-extralarge: var(--space-spacing-spacing-24);
+  --space-spacing-content-extremelarge: var(--space-spacing-spacing-28);
+  --space-spacing-general-extrasmall: var(--space-spacing-spacing-16);
+  --space-spacing-general-small: var(--space-spacing-spacing-28);
+  --space-spacing-general-large: var(--space-spacing-spacing-48);
+  --space-spacing-general-extralarge: var(--space-spacing-spacing-56);
+  --space-core-spacing-content-extrasmall: var(--space-core-spacing-16);
+  --space-core-spacing-content-small: var(--space-core-spacing-28);
+  --space-core-spacing-content-medium: var(--space-core-spacing-36);
+  --space-core-spacing-content-large: var(--space-core-spacing-48);
+  --space-core-spacing-content-extralarge: var(--space-core-spacing-56);
+  --space-variable-sizings-padding-size: var(--space-core-spacing-8);
+}

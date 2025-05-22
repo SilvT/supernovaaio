@@ -1,0 +1,17 @@
+/**
+ * This file was generated automatically by Supernova.io and should not be changed manually.
+ * To modify the format or content of this file, please contact your design system team. 
+ */
+
+:root {
+  --gradient-gradient-general-background: linear-gradient(142.23564523979522deg, #297dce 0%, #ffffff 85%);
+  --gradient-gradient-graphs-fill: linear-gradient(-90deg, #7acaff 0%, #297dce 50%, #5dbb8e 100%);
+  --gradient-gradient-main: linear-gradient(90deg, #7acaff 0%, #1d6bc1 100%);
+  --gradient-gradient-light: linear-gradient(90deg, #b8e2ff 0%, #7acaff 100%);
+  --gradient-gradient-subtle: linear-gradient(90deg, #f2f7fd 0%, #b8e2ff 100%);
+  --gradient-gradient-extrasubtle: linear-gradient(90deg, #f2f7fd 50%, #e4edfa 100%);
+  --gradient-gradient-error: linear-gradient(90deg, #f7654c 0%, #c72c2a 100%);
+  --gradient-gradient-info: linear-gradient(90deg, #164d8e 0%, #297dce 50%, #7acaff 100%);
+  --gradient-gradient-success: linear-gradient(90deg, #7fccb0 0%, #2d6f5b 100%);
+  --gradient-gradient-warning: linear-gradient(90deg, #fa9a3e 0%, #fcc133 77.5%);
+}

@@ -1,0 +1,27 @@
+/**
+ * This file was generated automatically by Supernova.io and should not be changed manually.
+ * To modify the format or content of this file, please contact your design system team. 
+ */
+
+:root {
+  --typography-title-h0: var(--font-weight-font-weight-semi-bold) var(--font-size-font-size-font-size-9)/var(--line-height-line-height-line-height-9) var(--font-family-font-family-plus-jakarta);
+  --typography-title-h1: var(--font-weight-font-weight-semi-bold) var(--font-size-font-size-font-size-8)/var(--line-height-line-height-line-height-8) var(--font-family-font-family-plus-jakarta);
+  --typography-title-h2: var(--font-weight-font-weight-semi-bold) var(--font-size-font-size-font-size-6)/var(--line-height-line-height-line-height-6) var(--font-family-font-family-plus-jakarta);
+  --typography-title-h3: var(--font-weight-font-weight-regular) var(--font-size-font-size-font-size-5)/var(--line-height-line-height-line-height-5) var(--font-family-font-family-plus-jakarta);
+  --typography-title-h4: var(--font-weight-font-weight-semi-bold) var(--font-size-font-size-font-size-3)/var(--line-height-line-height-line-height-3) var(--font-family-font-family-plus-jakarta);
+  --typography-title-h5: var(--font-weight-font-weight-semi-bold) var(--font-size-font-size-font-size-2)/var(--line-height-line-height-line-height-2) var(--font-family-font-family-plus-jakarta);
+  --typography-title-h6: var(--font-weight-font-weight-semi-bold) var(--font-size-font-size-font-size-1)/var(--line-height-line-height-line-height-10) var(--font-family-font-family-plus-jakarta);
+  --typography-title-h2-extrabold: 800 var(--font-size-font-size-font-size-6)/var(--line-height-line-height-line-height-6) var(--font-family-font-family-plus-jakarta);
+  --typography-body-b1: 500 var(--font-size-font-size-font-size-4)/var(--line-height-line-height-line-height-4) var(--font-family-font-family-plus-jakarta);
+  --typography-body-b2: 400 var(--font-size-font-size-font-size-3)/var(--line-height-line-height-line-height-4) var(--font-family-font-family-plus-jakarta);
+  --typography-body-b3: 400 var(--font-size-font-size-font-size-2)/var(--line-height-line-height-line-height-2) var(--font-family-font-family-plus-jakarta);
+  --typography-body-b4: 400 var(--font-size-font-size-font-size-1)/var(--line-height-line-height-line-height-1) var(--font-family-font-family-plus-jakarta);
+  --typography-body-b5: 400 var(--font-size-font-size-font-size-0)/var(--line-height-line-height-line-height-1) var(--font-family-font-family-plus-jakarta);
+  --typography-display-n1: 500 var(--font-size-font-size-font-size-10)/var(--line-height-line-height-line-height-10) var(--font-family-font-family-plus-jakarta);
+  --typography-display-n2: 700 var(--font-size-font-size-font-size-7)/var(--line-height-line-height-line-height-7) var(--font-family-font-family-plus-jakarta);
+  --typography-display-n3: 400 var(--font-size-font-size-font-size-6)/var(--line-height-line-height-line-height-6) var(--font-family-font-family-plus-jakarta);
+  --typography-display-n4: 600 var(--font-size-font-size-font-size-2)/var(--line-height-line-height-line-height-3) var(--font-family-font-family-plus-jakarta);
+  --typography-display-sidebar: 800 var(--font-size-font-size-font-size-6)/var(--line-height-line-height-line-height-6) var(--font-family-font-family-plus-jakarta);
+  --typography-captions-small: 400 var(--font-size-font-size-font-size-0)/0px var(--font-family-font-family-plus-jakarta);
+  --typography-captions-small-tall: 500 var(--font-size-font-size-font-size-0)/var(--line-height-line-height-line-height-2) var(--font-family-font-family-plus-jakarta);
+}

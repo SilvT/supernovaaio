@@ -1,0 +1,18 @@
+/**
+ * This file was generated automatically by Supernova.io and should not be changed manually.
+ * To modify the format or content of this file, please contact your design system team. 
+ */
+
+:root {
+  --border-radius-border-radius-radius-small: 2px;
+  --border-radius-border-radius-radius-medium: 4px;
+  --border-radius-border-radius-radius-large: 8px;
+  --border-radius-border-radius-radius-extralarge: 10px;
+  --border-radius-core-sizing-radius-small: 2px;
+  --border-radius-core-sizing-radius-medium: 4px;
+  --border-radius-core-sizing-radius-large: 8px;
+  /* Only for radio elements */
+  --border-radius-core-sizing-radius-extralarge: 10px;
+  --border-radius-border-radius-radio-border-radius: var(--border-radius-border-radius-radius-extralarge);
+  --border-radius-toggle-radio-border-radius: var(--border-radius-core-sizing-radius-extralarge);
+}
