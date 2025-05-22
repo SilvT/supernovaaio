@@ -1,0 +1,16 @@
+name: Hello World
+
+on:
+  push:
+    branches:
+      - main  # You can change this to your main branch name if different
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Say Hello
+        run: echo "🎉 Hello, this is your first GitHub Action!"
