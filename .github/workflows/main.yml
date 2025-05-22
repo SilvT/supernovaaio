@@ -1,0 +1,35 @@
+name: Clean CSS Variable Prefixes
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  clean-css-vars:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      # Optional: create a package.json to satisfy npm
+      - name: Create dummy package.json
+        run: |
+          echo '{}' > package.json
+
+      - name: Run prefix cleaner script
+        run: node .github/scripts/clean-css-vars.js
+
+      - name: Commit and push updated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add *.css
+          git diff --cached --quiet || git commit -m "chore: clean CSS variable prefixes from /base"
+          git push
