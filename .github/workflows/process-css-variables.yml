@@ -1,0 +1,108 @@
+name: Process CSS Variables
+
+# This action runs only when manually triggered
+on:
+  workflow_dispatch:
+    inputs:
+      commit_message:
+        description: 'Commit message for the changes'
+        required: false
+        default: 'Update CSS variables from /base folder'
+
+jobs:
+  process-css-variables:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        
+    - name: Process CSS files
+      run: |
+        #!/bin/bash
+        
+        # Create a directory for processed files if it doesn't exist
+        mkdir -p processed_files
+        
+        # Function to process a single CSS file
+        process_css_file() {
+          local input_file="$1"
+          local filename=$(basename "$input_file" .css)
+          local output_file="${filename}.CSS"
+          
+          echo "Processing $input_file -> $output_file"
+          
+          # Extract CSS variables that match the pattern --FILENAME-*
+          # Convert --FILENAME-variable-name to --variable-name
+          grep -o "\-\-${filename^^}[^:]*:[^;]*;" "$input_file" | \
+          sed "s/--${filename^^}-/--/g" > "temp_${filename}.css" 2>/dev/null || true
+          
+          # Only create/update the output file if we found matching variables
+          if [ -s "temp_${filename}.css" ]; then
+            echo "/* CSS variables extracted from /base/${filename}.css */" > "$output_file"
+            echo ":root {" >> "$output_file"
+            
+            # Add each variable with proper indentation
+            while IFS= read -r line; do
+              echo "  $line" >> "$output_file"
+            done < "temp_${filename}.css"
+            
+            echo "}" >> "$output_file"
+            echo "Created/updated $output_file with $(wc -l < temp_${filename}.css) variables"
+          else
+            echo "No matching variables found in $input_file"
+          fi
+          
+          # Clean up temporary file
+          rm -f "temp_${filename}.css"
+        }
+        
+        # Check if /base directory exists
+        if [ ! -d "base" ]; then
+          echo "Error: /base directory not found!"
+          exit 1
+        fi
+        
+        # Process all CSS files in the /base directory
+        css_files_found=false
+        for css_file in base/*.css; do
+          if [ -f "$css_file" ]; then
+            css_files_found=true
+            process_css_file "$css_file"
+          fi
+        done
+        
+        if [ "$css_files_found" = false ]; then
+          echo "No CSS files found in /base directory"
+          exit 1
+        fi
+        
+    - name: Check for changes
+      id: check_changes
+      run: |
+        if git diff --quiet; then
+          echo "No changes detected"
+          echo "changes=false" >> $GITHUB_OUTPUT
+        else
+          echo "Changes detected"
+          echo "changes=true" >> $GITHUB_OUTPUT
+        fi
+        
+    - name: Commit and push changes
+      if: steps.check_changes.outputs.changes == 'true'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add *.CSS
+        git commit -m "${{ github.event.inputs.commit_message }}"
+        git push
+        
+    - name: No changes summary
+      if: steps.check_changes.outputs.changes == 'false'
+      run: |
+        echo "No CSS variable changes were needed. All files are up to date."
